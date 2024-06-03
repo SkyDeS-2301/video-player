@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.item {
+    text-align: center;
+}
+.title {
+    margin-bottom: 20px;
+}
+.item-video {
+    width: 300px;
+}
